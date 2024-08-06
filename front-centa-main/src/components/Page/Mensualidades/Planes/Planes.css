@@ -1,0 +1,30 @@
+.planes-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.planes-header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.planes-header h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin: 20px;
+}
+
+.card-container .card-plan {
+    margin: 10px;
+}
+
+.footer {
+    margin-top: auto; 
+}

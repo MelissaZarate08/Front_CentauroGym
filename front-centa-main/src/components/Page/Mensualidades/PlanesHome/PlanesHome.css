@@ -1,0 +1,30 @@
+.planes-home-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.planes-home-header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.planes-home-header h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.planes-home-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.planes-home-card-container .card-plan {
+    margin: 10px;
+}
+
+.footer {
+    margin-top: auto; 
+}

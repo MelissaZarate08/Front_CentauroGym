@@ -1,0 +1,103 @@
+.productos-form-page {
+    min-height: calc(100vh - 120px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.productos-form-title {
+    font-size: 28px; 
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.productos-form-container {
+    max-width: 700px; 
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ddd;
+    padding: 30px; 
+}
+
+.productos-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.productos-form-group {
+    margin-bottom: 20px;
+}
+
+.productos-form-label {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.productos-form-icon {
+    margin-right: 10px;
+    font-size: 20px; 
+    color: #007bff;
+}
+
+.productos-form-input,
+.productos-form-file-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 18px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.productos-form-input:focus,
+.productos-form-file-input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.productos-image-preview {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.productos-image-preview-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.productos-submit-button {
+    background-color: #FFD700;
+    border: none;
+    color: #000000;
+    padding: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+}
+
+.productos-submit-button:hover {
+    background-color: #d8b90c;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.1);
+}

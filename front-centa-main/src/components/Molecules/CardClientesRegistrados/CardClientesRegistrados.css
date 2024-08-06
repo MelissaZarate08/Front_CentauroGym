@@ -1,0 +1,70 @@
+.card-clientes {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 12px;
+    max-width: 300px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.card-clientes-header {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 6px;
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.card-clientes-title {
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.card-clientes-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-clientes-payment {
+    font-size: 1rem;
+    margin: 0;
+    margin-bottom: 6px;
+}
+
+.card-clientes-coach {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.card-clientes-coach span {
+    margin-right: 6px;
+}
+
+.icon-yes {
+    color: green;
+}
+
+.icon-no {
+    color: red;
+}
+
+.card-clientes-id {
+    font-size: 0.85rem;
+    margin: 0;
+}
+
+.card-clientes-delete-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: red;
+}
+
+.icon-delete {
+    font-size: 1.2rem;
+}

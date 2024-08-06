@@ -1,0 +1,84 @@
+.registrar-clientes-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px);
+    background-color: #f7f7f7;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+}
+
+.registrar-clientes-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px 0;
+    min-height: 500px;
+}
+
+.registrar-clientes-heading {
+    text-align: center;
+    color: #333333;
+    margin: 60px 0 40px; /* Aumentado margen superior para más espacio */
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.registrar-clientes-form {
+    width: 100%;
+    padding: 30px;
+}
+
+.registrar-clientes-input-group {
+    margin-bottom: 25px;
+}
+
+.registrar-clientes-label {
+    display: block;
+    margin-bottom: 10px;
+    color: #666666;
+    font-size: 16px;
+}
+
+.registrar-clientes-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.registrar-clientes-input:focus {
+    border-color: #00aaff;
+    outline: none;
+}
+
+.registrar-clientes-submit-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #FFD700;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.registrar-clientes-submit-btn:hover {
+    background-color: #f3d006;
+}
+
+@media (max-width: 768px) {
+    .registrar-clientes-box {
+        width: 90%;
+    }
+}

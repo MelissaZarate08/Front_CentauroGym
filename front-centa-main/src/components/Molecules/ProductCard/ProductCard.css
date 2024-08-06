@@ -1,0 +1,55 @@
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-details {
+    margin: 16px 0;
+}
+
+.product-name {
+    font-size: 1.2em;
+    margin: 8px 0;
+}
+
+.product-price {
+    font-size: 1em;
+    color: #333;
+}
+
+.product-brand {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.product-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit-button, .delete-button {
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+    color: #000000;
+}
+
+.edit-button {
+    background-color: yellow;
+}
+
+.delete-button {
+    background-color: red;
+}

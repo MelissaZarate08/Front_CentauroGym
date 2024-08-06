@@ -1,0 +1,27 @@
+/* Asegúrate de que el html y body ocupen todo el alto disponible */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Contenedor de la página que incluye el contenido principal y el pie de página */
+.page-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Contenedor del contenido principal, que crecerá para llenar el espacio disponible */
+.main-content {
+    flex: 1;
+}
+
+/* Opcional: estilos para el contenedor de las tarjetas */
+.product-card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}

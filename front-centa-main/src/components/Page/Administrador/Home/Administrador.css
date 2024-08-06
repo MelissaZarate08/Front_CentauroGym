@@ -1,0 +1,17 @@
+.home-administrador-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    flex: 1;
+}
+
+footer {
+    margin-top: auto;
+}

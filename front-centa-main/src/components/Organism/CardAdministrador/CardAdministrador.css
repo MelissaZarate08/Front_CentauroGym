@@ -1,0 +1,61 @@
+.card-administrador {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 250px;
+    height: 350px;
+    margin: 15px;
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    text-align: center;
+}
+
+.card-administrador:hover {
+    transform: scale(1.05);
+}
+
+.card-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    display: block;
+    border: 3px solid #FFD700;
+    border-radius: 50%;
+}
+
+.card-administrador-content {
+    padding: 15px;
+    text-align: center;
+}
+
+.card-administrador-h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.card-administrador-p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.card-administrador-button {
+    background-color: #FFD700;
+    border: none;
+    border-radius: 4px;
+    color: #000;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.card-administrador-button:hover {
+    background-color: #FFC107;
+}

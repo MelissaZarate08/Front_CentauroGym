@@ -1,0 +1,22 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.container-home {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.cards-container-home {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+footer {
+    margin-top: auto;
+}
